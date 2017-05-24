@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        .input { padding: 5px; margin: 0; border: 1px solid #beceeb; }
+        .clear { display: none; position: absolute; width: 16px; height: 16px; margin: 6px 0 0 -20px; background: url(http://www.zhangxinxu.com/study/201403/clear.png) no-repeat; outline: none; }
+        .input::-ms-clear { display: none; }
+        .input:valid + .clear { display: inline; }
+    </style>
+</head>
+<body>
+    <input type="text" class="input" required/><a class="clear"></a>
+</body>
+</html>
